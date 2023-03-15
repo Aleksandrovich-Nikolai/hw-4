@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="keywords" content="IT-Academy, домашняя работа, HTML, семантические теги">
+  <meta name="description" content="Домашняя работа по курсу HTML">
+  <meta name="author" content="Александрович Николай">
+  <title>Формы</title>
+</head>
+<body>
+
+  <form>
+    <fieldset>
+      <legend>Бронирование столика в ресторанном комплексе «Прованс»</legend>
+      
+      <label for="clientName">Ваше имя</label>
+      <input type="text" name="clientName" id="clientName" required>
+
+      <br>
+      <br>
+
+      <label for="mobileNumber">Мобильный телефон</label>
+      <input type="text" name="mobileNumber" id="mobileNumber" placeholder="+375(_ _)_ _ _  _ _  _ _" required>
+
+      <br>
+      <br>
+
+      <label for="email">E-mail</label>
+      <input type="email" name="email" id="email" required>
+
+      <br>
+      <br>
+
+      <label for="persons">Количество персон</label>
+      <input type="number" name="persons" id="persons" required>
+
+      <br>
+      <br>
+      
+      <label for="visitDate">Дата посещения</label>
+      <input type="date" name="visitDate" id="visitDate" required>
+
+      <br>
+      <br>
+
+      <label for="visitTime">Время посещения</label>
+      <input type="time" name="visitTime" id="visitTime" required>
+
+      <br>
+      <br>
+
+      <p>Комментарий</p>
+
+      <textarea name="message" id="message" cols="90" rows="16" placeholder="Пожелание к брони" autofocus></textarea>
+
+      <br>
+      <br>
+      
+      <button type="submit">Забронировать</button>
+
+    </fieldset>
+
+  </form>
+ 
+</body>
+</html>
